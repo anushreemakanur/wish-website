@@ -222,10 +222,20 @@ button:hover {
   opacity: 0;
 }
 
-.granted-title {
-  font-size: 2.2rem;
-  letter-spacing: 8px;
-  line-height: 1.5;
+.granted-title{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    line-height:1.5;
+}
+
+.granted-title span{
+    font-size:2rem;
+    letter-spacing:10px;
+    text-shadow:
+    0 0 15px rgba(255,255,255,.15);
 }
 
 .wish-id {
