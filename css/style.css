@@ -85,16 +85,19 @@ body {
   background: transparent;
   border: none;
   border-bottom: 1px solid rgba(239, 230, 208, .5);
-  color: #efe6d0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  color:#ffffff;
   text-align: center;
   padding: 15px;
   margin-bottom: 35px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Special Elite', serif;
 }
 
 #wishInput:focus {
   outline: none;
+
+  text-shadow:
+    0 0 8px rgba(255,255,255,.3);
 }
 
 /* Buttons */
